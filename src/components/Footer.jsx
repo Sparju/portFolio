@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer-socials">
           <h3>Connect with me:</h3>
           <div className="social-links">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/sparjan-raju-3627052a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i> LinkedIn
             </a>
             <a href="https://github.com/Sparju" target="_blank" rel="noopener noreferrer">
@@ -26,8 +26,8 @@ function Footer() {
 
         <div className="footer-contact">
           <h3>Contact</h3>
-          <p>Email: <a href="sparju.p@gmail.com">sparju.p@gmail.com</a></p>
-          <p>Phone: (***) ***-**90</p>
+          <p>Email: <a href="purnakantisparjan.123@gmail.com">purnakantisparjan.123@gmail.com</a></p>
+          <p>Phone:8886***732</p>
         </div>
       </div>
     </footer>

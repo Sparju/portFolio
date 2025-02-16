@@ -1,4 +1,8 @@
 import React from 'react';
+import project1Img from '../assets/onlineEducation.jpg';
+import project2Img from '../assets/Ecommerce.jpg';
+import project3Img from '../assets/third.jpeg'; // Ensure the third image is imported
+import { color } from 'framer-motion';
 
 function Projects() {
   return (
@@ -7,7 +11,9 @@ function Projects() {
       <div className="project-list">
         {/* Educational Site Project */}
         <div className="project-card">
-          <img src="/assets/project1.jpg" alt="Educational Site" />
+          <img src={project1Img} alt="Educational Site" />
+          <p style={{color:"black"}}>Educational site</p>
+
           <div className="card-content">
             <p className="preview-text">Educational site for developers</p>
             <div className="overlay">
@@ -23,7 +29,9 @@ function Projects() {
 
         {/* eCommerce Site Project */}
         <div className="project-card">
-          <img src="/assets/project2.jpg" alt="eCommerce Site" />
+          <img src={project2Img} alt="eCommerce Site" />
+
+            <p style={{color:"black"}}>eCommerce platform</p>
           <div className="card-content">
             <p className="preview-text">eCommerce platform</p>
             <div className="overlay">
@@ -39,7 +47,9 @@ function Projects() {
 
         {/* Small Business Application */}
         <div className="project-card">
-          <img src="/assets/project3.jpg" alt="Small Business App" />
+          <img src={project3Img} alt="Small Business App" />
+          <p style={{color:"black"}}>Small Business App</p>
+
           <div className="card-content">
             <p className="preview-text">Business management app</p>
             <div className="overlay">
